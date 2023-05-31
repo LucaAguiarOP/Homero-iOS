@@ -14,6 +14,9 @@
 		6474F82E2A26A87E00A952BC /* Homero_iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F82D2A26A87E00A952BC /* Homero_iOS_Tests.swift */; };
 		6474F8382A26A87E00A952BC /* Homero_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8372A26A87E00A952BC /* Homero_iOS_UITests.swift */; };
 		6474F83A2A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */; };
+		6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8492A26AC1A00A952BC /* LoginViewMode.swift */; };
+		6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84B2A26AD8C00A952BC /* LoginView.swift */; };
+		6474F84F2A26CD5700A952BC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		6474F8332A26A87E00A952BC /* Homero(iOS)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homero(iOS)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6474F8372A26A87E00A952BC /* Homero_iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_UITests.swift; sourceTree = "<group>"; };
 		6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6474F8492A26AC1A00A952BC /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
+		6474F84B2A26AD8C00A952BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6474F84E2A26CD5700A952BC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,9 @@
 		6474F81B2A26A87B00A952BC /* Homero(iOS) */ = {
 			isa = PBXGroup;
 			children = (
-				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
-				6474F81E2A26A87B00A952BC /* ContentView.swift */,
+				6474F8482A26A8FF00A952BC /* VieModel */,
+				6474F8472A26A8F800A952BC /* Models */,
+				6474F8462A26A8F000A952BC /* View */,
 				6474F8202A26A87D00A952BC /* Assets.xcassets */,
 				6474F8222A26A87D00A952BC /* Preview Content */,
 			);
@@ -125,6 +132,40 @@
 				6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */,
 			);
 			path = "Homero(iOS)UITests";
+			sourceTree = "<group>";
+		};
+		6474F8462A26A8F000A952BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6474F81E2A26A87B00A952BC /* ContentView.swift */,
+				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
+				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
+				6474F84D2A26CD2900A952BC /* Styles */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6474F8472A26A8F800A952BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6474F8482A26A8FF00A952BC /* VieModel */ = {
+			isa = PBXGroup;
+			children = (
+				6474F8492A26AC1A00A952BC /* LoginViewMode.swift */,
+			);
+			path = VieModel;
+			sourceTree = "<group>";
+		};
+		6474F84D2A26CD2900A952BC /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				6474F84E2A26CD5700A952BC /* Styles.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
+				6474F84F2A26CD5700A952BC /* Styles.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
+				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
+				6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
