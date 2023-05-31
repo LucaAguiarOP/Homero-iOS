@@ -24,7 +24,7 @@ struct LoginView: View {
                 .frame(width: 200, height: 200)
             TextField("E-mail", text: $email)
                 .padding()
-                .clipShape(RoundedRectangle(cornerSize: 16))
+//                .clipShape(RoundedRectangle(cornerSize: 16))
                 .padding(.horizontal, 50)
                 .keyboardType(.emailAddress)
                 

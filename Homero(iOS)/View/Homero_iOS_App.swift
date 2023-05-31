@@ -11,7 +11,7 @@ import SwiftUI
 struct Homero_iOS_App: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ContentView()
         }
     }
 }
