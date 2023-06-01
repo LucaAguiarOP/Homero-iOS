@@ -13,6 +13,7 @@ class LoginViewModel: ObservableObject {
     @Published private var email: String = ""
     @Published private var password: String = ""
     @Published private var isLoggedIn: Bool = false
+    @Published var isSecuredEye: Bool = false
     
 //    init(isLoading: Bool, email: String, password: String, isLoggedIn: Bool) {
 //        self.isLoading = isLoading
@@ -21,6 +22,9 @@ class LoginViewModel: ObservableObject {
 //        self.isLoggedIn = isLoggedIn
 //    }
     
+    func performToggle(){
+        isSecuredEye.toggle()
+    }
     func authenticate() {
         isLoading = true
         

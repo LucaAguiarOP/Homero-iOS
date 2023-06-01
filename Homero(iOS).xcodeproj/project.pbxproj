@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		641074FE2A28010D00899B79 /* TesteAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641074FD2A28010D00899B79 /* TesteAlert.swift */; };
 		6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */; };
 		6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81E2A26A87B00A952BC /* ContentView.swift */; };
 		6474F8212A26A87D00A952BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6474F8202A26A87D00A952BC /* Assets.xcassets */; };
@@ -18,6 +17,8 @@
 		6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8492A26AC1A00A952BC /* LoginViewMode.swift */; };
 		6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84B2A26AD8C00A952BC /* LoginView.swift */; };
 		6474F84F2A26CD5700A952BC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Styles.swift */; };
+		64AE91AC2A2949FF003A52E4 /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AB2A2949FF003A52E4 /* ForgotPasswordVie.swift */; };
+		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		641074FD2A28010D00899B79 /* TesteAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteAlert.swift; sourceTree = "<group>"; };
 		6474F8192A26A87B00A952BC /* Homero(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homero(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_App.swift; sourceTree = "<group>"; };
 		6474F81E2A26A87B00A952BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		6474F8492A26AC1A00A952BC /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
 		6474F84B2A26AD8C00A952BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6474F84E2A26CD5700A952BC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		64AE91AB2A2949FF003A52E4 /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
+		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				6474F81E2A26A87B00A952BC /* ContentView.swift */,
+				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
+				64AE91AB2A2949FF003A52E4 /* ForgotPasswordVie.swift */,
 				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
 				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
-				641074FD2A28010D00899B79 /* TesteAlert.swift */,
 				6474F84D2A26CD2900A952BC /* Styles */,
 			);
 			path = View;
@@ -304,8 +307,9 @@
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
 				6474F84F2A26CD5700A952BC /* Styles.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
+				64AE91AC2A2949FF003A52E4 /* ForgotPasswordVie.swift in Sources */,
+				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
 				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
-				641074FE2A28010D00899B79 /* TesteAlert.swift in Sources */,
 				6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
