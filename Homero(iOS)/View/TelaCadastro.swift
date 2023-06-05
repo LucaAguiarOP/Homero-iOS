@@ -18,6 +18,7 @@ struct TelaCadastro: View {
                 .padding()
                 .border(Color.gray, width: 1)
                 .padding(.horizontal, 50)
+                .cornerRadius(70)
             
             TextField("E-mail", text: $textfieldemail)
                 .padding()
