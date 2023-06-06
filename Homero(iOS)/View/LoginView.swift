@@ -24,7 +24,6 @@ struct LoginView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250, height: 207)
                     .padding(.top,100)
-                // teste 
                 VStack(spacing: 5){
                     Text("Efetue Login:")
                         .position(x:100,y:70)
@@ -87,6 +86,7 @@ struct LoginView: View {
                 }
             }
         }
+        //douglasboiola
     }
     
     struct LoginView_Previews: PreviewProvider {
