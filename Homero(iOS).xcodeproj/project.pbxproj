@@ -19,6 +19,7 @@
 		6474F84F2A26CD5700A952BC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Styles.swift */; };
 		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
 		64AE91B12A2954F5003A52E4 /* RegistroAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */; };
+		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		6474F84E2A26CD5700A952BC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
 		64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroAluno.swift; sourceTree = "<group>"; };
+		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				6474F81E2A26A87B00A952BC /* ContentView.swift */,
 				64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */,
+				64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */,
 				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
 				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
 				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
@@ -306,6 +309,7 @@
 			files = (
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
 				6474F84F2A26CD5700A952BC /* Styles.swift in Sources */,
+				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
 				64AE91B12A2954F5003A52E4 /* RegistroAluno.swift in Sources */,
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,

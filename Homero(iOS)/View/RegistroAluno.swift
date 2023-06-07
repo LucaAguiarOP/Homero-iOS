@@ -25,24 +25,33 @@ struct RegistroAluno: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250, height: 207)
-                    .padding(.top, 30)
+                    .padding(.top, 60)
                 
                 VStack(spacing: 5){
                     Text("Registre-se como aluno:")
                     Stylefield(text: $email, isSecured: true)
                 }
                 .padding()
-                Button(action: {
-                    loginmode.authenticate()
-                }) {
-                    Text("Continuar cadastro")
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(width: 200, height: 50)
-                        .background(Color("Bluedark"))
-                        .cornerRadius(10)
-                       
-                }
+                
+                NavigationLink(destination: TelaCadastro()) {
+                    Text("continuar cadastro")
+                }.buttonStyle(.borderedProminent)
+                    .cornerRadius(50)
+            }
+                
+//                Button(action: {
+//                    loginmode.authenticate()
+//
+//
+//                }) {
+//                    Text("Continuar cadastro")
+//                        .foregroundColor(.white)
+//                        .padding()
+//                        .frame(width: 200, height: 50)
+//                        .background(Color("Bluedark"))
+//                        .cornerRadius(10)
+//
+//                }
                 NavigationLink(destination: ForgotPasswordVie()){
                     Text("Já tem uma conta? Faça login!")
                         .padding(.top,30)
@@ -50,7 +59,8 @@ struct RegistroAluno: View {
                 }
                 VStack{
                     Rectangle()
-                        .fill(Color("Bluedark"))
+                        .foregroundStyle(.linearGradient(colors: [Color("Bluedark"), .blue],startPoint: .topTrailing, endPoint: .bottomTrailing))
+//                        .fill(Color("Bluedark"))
                         .frame(width:400, height: 300)
                         .padding(.top,80)
                         .overlay(
@@ -78,4 +88,4 @@ struct RegistroAluno: View {
         }
     }
     
-}
+

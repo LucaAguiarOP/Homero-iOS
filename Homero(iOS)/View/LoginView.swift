@@ -12,7 +12,7 @@ struct LoginView: View {
     @State private var senha: String = ""
     @State private var isLoading: Bool = false
     @State private var loginSuccess: Bool = false
-
+    
     
     @StateObject var loginmode = LoginViewModel()
     
@@ -72,7 +72,7 @@ struct LoginView: View {
                 HStack{
                     Text("Não é matriculado? registre-se como")
                         .frame(width: 37,height: 37)
-                   
+                    
                     NavigationLink(destination: TelaCadastro()){
                         Text("Aluno")
                             .frame(width: 37,height: 37)
@@ -80,7 +80,7 @@ struct LoginView: View {
                     Text("ou")
                         .frame(width: 37,height: 37)
                     NavigationLink(destination: TelaCadastro()){
-                            Text("Professor")
+                        Text("Professor")
                             .frame(width: 37,height: 37)
                     }
                 }
@@ -94,5 +94,6 @@ struct LoginView: View {
             LoginView()
         }
     }
+    
     
 }
