@@ -10,11 +10,9 @@ import SwiftUI
 @main
 struct Homero_iOS_App: App {
     var body: some Scene {
+        
         WindowGroup {
-            NavigationStack{
-                LoginView()
-                TelaCadastro()
-            }
+            MenuView()
         }
     }
 }
