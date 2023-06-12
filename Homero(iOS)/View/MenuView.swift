@@ -21,25 +21,38 @@ struct MenuView: View {
                 .frame(width: 365,height:4)
                 .overlay(Color("Bluedark"))
             Spacer()
-                
+            
+            
             
         }
     }
 }
 
-//struct MenuViewTab: View {
-//    var body: some View {
-//        TabView{
-//            MenuView()
-//                .tabItem
-//                    Label("Home",systemImage: ")
-//            ContaView()
-//                .tabItem
-//        }
-//    }
-//}
+struct MenuViewTab: View {
+    var body: some View {
+        
+        NavigationStack {
+            TabView {
+                Group {
+                    MenuView()
+                        .tabItem{
+                            Label("Meus cursos",systemImage:"graduationcap.fill")
+                        }
+                    ProfileVie()
+                        .tabItem{
+                            Label("Conta",systemImage:"person.crop.circle.fill")
+                        }
+                }
+                
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(Color("Bluedark"), for: .tabBar)
+            }
+        }
+    }
+}
+// "Bluedark"
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
+        MenuViewTab()
     }
 }
