@@ -12,7 +12,7 @@ struct Homero_iOS_App: App {
     var body: some Scene {
         
         WindowGroup {
-            MenuView()
+            RegistroAluno()
         }
     }
 }
