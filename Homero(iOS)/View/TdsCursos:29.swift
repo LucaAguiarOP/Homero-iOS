@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MenuView: View {
+struct MenuCursos: View {
     var body: some View {
         VStack(spacing: 0){
             HStack{
@@ -28,7 +28,7 @@ struct MenuView: View {
     }
 }
 
-struct MenuViewTab: View {
+struct MenuCursosTab: View {
     var body: some View {
         
         NavigationStack {
@@ -50,9 +50,9 @@ struct MenuViewTab: View {
         }
     }
 }
-// "Bluedark"
-struct MenuView_Previews: PreviewProvider {
+
+struct MenuCurso_Previews: PreviewProvider {
     static var previews: some View {
-        MenuViewTab()
+        MenuCursos()
     }
 }

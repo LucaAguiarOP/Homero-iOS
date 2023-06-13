@@ -12,7 +12,7 @@ struct RegistroAluno: View {
     @State private var senha: String = ""
     @State private var isLoading: Bool = false
     @State private var loginSuccess: Bool = false
-
+    
     
     @StateObject var loginmode = LoginViewModel()
     
@@ -24,8 +24,8 @@ struct RegistroAluno: View {
                 Image("Homero")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 250, height: 207)
-                    .padding(.top, 60)
+                    .frame(width: 250, height: 100)
+                    .padding(.top)
                 
                 VStack(spacing: 5){
                     Text("Registre-se como aluno:")
@@ -35,49 +35,19 @@ struct RegistroAluno: View {
                 
                 NavigationLink(destination: TelaCadastro()) {
                     Text("continuar cadastro")
-                }.buttonStyle(.borderedProminent)
-                    .cornerRadius(50)
-            }
-                
-//                Button(action: {
-//                    loginmode.authenticate()
-//
-//
-//                }) {
-//                    Text("Continuar cadastro")
-//                        .foregroundColor(.white)
-//                        .padding()
-//                        .frame(width: 200, height: 50)
-//                        .background(Color("Bluedark"))
-//                        .cornerRadius(10)
-//
-//                }
+                    
+                }
+                .padding()
+                .frame(width: 275, height: 40)
+                .background(Color("Bluedark"))
+                .foregroundColor(.white)
+                .cornerRadius(10)
                 NavigationLink(destination: ForgotPasswordVie()){
                     Text("Já tem uma conta? Faça login!")
                         .padding(.top,30)
+                        .foregroundColor((Color("Bluedark")))
+                }
                 
-                }
-                VStack{
-                    Rectangle()
-                        .foregroundStyle(.linearGradient(colors: [Color("Bluedark"), .blue],startPoint: .topTrailing, endPoint: .bottomTrailing))
-//                        .fill(Color("Bluedark"))
-                        .frame(width:400, height: 300)
-                        .padding(.top,80)
-                        .overlay(
-                            Text("Sistema Homero")
-                                .foregroundColor(.white)
-                                .padding(.bottom,170)
-                                    )
-                        .overlay(
-                            Text("Plataforma de educação adaptiva, com uso de inteligência artificial, na qual os alunos capacitam-se, conforme a sua disponibilidade e condições de aprendizado.")
-                                .foregroundColor(.white)
-                                .padding(.top, 30 )
-                                .padding(.horizontal, 10)
-                                    )
-                }
-                Spacer()
-                .padding(.top, 20)
-                .disabled(isLoading)
             }
         }
     }
@@ -88,4 +58,5 @@ struct RegistroAluno: View {
         }
     }
     
-
+    
+}

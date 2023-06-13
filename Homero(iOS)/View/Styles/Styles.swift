@@ -19,10 +19,9 @@ struct Stylefield: View {
     var body: some View{
         
             ZStack {
-                RoundedRectangle(cornerRadius: 5)
+                RoundedRectangle(cornerRadius: 10)
                     .stroke(Color("Bluedark"),lineWidth: 2)
                     .foregroundColor(.clear)
-//                    .cornerRadius(10)
                     .keyboardType(.emailAddress)
                     .padding()
                     .padding(.horizontal,50)
