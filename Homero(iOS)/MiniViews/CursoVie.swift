@@ -17,12 +17,12 @@ struct CursoVie: View {
         Rectangle()
             .shadow(radius: 50)
             .foregroundColor(.white)
-            .frame(width: 370,height: 400)
+            .frame(width: 350,height: 370)
             .overlay{
                 VStack(spacing:20){
                     Image((nomeimage))
                         .opacity(0.2)
-                        .frame(width: 370,height: 200)
+                        .frame(width: 350,height: 200)
                         .clipped()
                         .overlay{
                             HStack  {
@@ -46,7 +46,7 @@ struct CursoVie: View {
                         .foregroundColor(Color("Bluedark"))
                         
                         Button("Acessar curso"){}
-                            .frame(minWidth: 345,minHeight: 37)
+                            .frame(minWidth: 332,minHeight: 37)
 
                             .foregroundColor(.white)
                             .background(Color("Bluedark"))
