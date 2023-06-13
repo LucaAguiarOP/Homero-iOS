@@ -14,35 +14,56 @@ struct CursoVie: View {
     
     var body: some View {
         
-                VStack{
-                    ZStack{
-                        Image(systemName: "\(nomeimage)")
-                            .opacity(0.05)
-                        Text("\(cursopequeno)")
-                            .foregroundColor(Color("Bluedark"))
-                    }
+        Rectangle()
+            .shadow(radius: 50)
+            .foregroundColor(.white)
+            .frame(width: 370,height: 400)
+            .overlay{
+                VStack(spacing:20){
+                    Image((nomeimage))
+                        .opacity(0.2)
+                        .frame(width: 370,height: 200)
+                        .clipped()
+                        .overlay{
+                            HStack  {
+                                Text("\(cursopequeno)")
+                                    .foregroundColor(Color("Bluedark"))
+                                    .font(.title)
+                                Spacer()
+                            }
+                        }
+            
+                    
+                    Spacer()
                     Divider()
                         .frame(width: .infinity)
-                    Text("\(curso)")
+                        .position(x:180,y:35)
+                    VStack(spacing:27){
+                        HStack(){
+                            Text("\(curso)")
+                            Spacer()
+                        }
                         .foregroundColor(Color("Bluedark"))
-                    
-                    Button("Acessar curso"){}
-                        .frame(minWidth: 400,minHeight: 400)
-                        .cornerRadius(10)
-                        .foregroundColor(.white)
-                        //.buttonStyle(.borderedProminent)
-                        .background(Color("Bluedark"))
-                        .backgroundStyle(Color("Bluedark"))
-                    
-                    
-                    
+                        
+                        Button("Acessar curso"){}
+                            .frame(minWidth: 345,minHeight: 37)
+
+                            .foregroundColor(.white)
+                            .background(Color("Bluedark"))
+                            .cornerRadius(5)
+                        Rectangle()
+                    }
                 }
-            
+            }
     }
+    
 }
+
+
+
 
 struct CursoVie_Previews: PreviewProvider {
     static var previews: some View {
-        CursoVie(nomeimage: "POO", cursopequeno:"POO", curso: "a")
+        CursoVie(nomeimage: "Background", cursopequeno:"POO", curso: "Programação orientada a objetos")
     }
 }

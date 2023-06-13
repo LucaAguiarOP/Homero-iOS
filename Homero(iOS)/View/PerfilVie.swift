@@ -16,7 +16,7 @@ struct PerfilVie: View {
             
             NavigationView{
                 VStack{
-                 
+                    
                     Image(systemName: "person.crop.circle")
                         .resizable()
                     
@@ -34,9 +34,10 @@ struct PerfilVie: View {
         }
     }
     
-    struct PerfilVie_Previews: PreviewProvider {
-        static var previews: some View {
-            PerfilVie(textretancle: $)
-        }
-    }
+    //    struct PerfilVie_Previews: PreviewProvider {
+    //        static var previews: some View {
+    //          //  PerfilVie(textretancle: )
+    //        }
+    //    }
+    //}
 }
