@@ -16,14 +16,21 @@ struct MenuView: View {
                     .padding(.leading)
                     .font(.title)
                 Spacer()
+                
             }
             Divider()
-                .frame(width: 365,height:4)
-                .overlay(Color("Bluedark"))
+            .frame(width: 365,height:2)
+            .overlay(Color("Bluedark"))
+           
+            CursoVie(nomeimage: "Background", cursopequeno: "POO", curso: "Programação orientada a objeto")
             Spacer()
             
+                
             
             
+            
+            
+        
         }
     }
 }
@@ -50,7 +57,7 @@ struct MenuViewTab: View {
         }
     }
 }
-// "Bluedark"
+
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
         MenuViewTab()
