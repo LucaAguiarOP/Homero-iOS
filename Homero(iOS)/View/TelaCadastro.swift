@@ -67,3 +67,7 @@ struct TelaCadastro: View {
         }
     }
 }
+
+
+
+//vlad
