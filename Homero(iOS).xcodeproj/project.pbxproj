@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413DCCF2A37927800ED84F7 /* ProfileVie.swift */; };
+		644535952A314DBB003675DD /* CursoVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535942A314DBB003675DD /* CursoVie.swift */; };
+		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
 		6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */; };
 		6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81E2A26A87B00A952BC /* ContentView.swift */; };
 		6474F8212A26A87D00A952BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6474F8202A26A87D00A952BC /* Assets.xcassets */; };
@@ -17,8 +20,11 @@
 		6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8492A26AC1A00A952BC /* LoginViewMode.swift */; };
 		6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84B2A26AD8C00A952BC /* LoginView.swift */; };
 		6474F84F2A26CD5700A952BC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Styles.swift */; };
+		6483C5272A315A1E009B3986 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483C5262A315A1E009B3986 /* ButtonStyle.swift */; };
 		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
 		64AE91B12A2954F5003A52E4 /* RegistroAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */; };
+		64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EA2A29538B0034E479 /* PerfilVie.swift */; };
+		64B876ED2A2957DC0034E479 /* StyleProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EC2A2957DC0034E479 /* StyleProfil.swift */; };
 		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6413DCCF2A37927800ED84F7 /* ProfileVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVie.swift; sourceTree = "<group>"; };
+		644535912A314418003675DD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
 		6474F8192A26A87B00A952BC /* Homero(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homero(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_App.swift; sourceTree = "<group>"; };
 		6474F81E2A26A87B00A952BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +62,11 @@
 		6474F8492A26AC1A00A952BC /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
 		6474F84B2A26AD8C00A952BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6474F84E2A26CD5700A952BC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6483C5262A315A1E009B3986 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
 		64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroAluno.swift; sourceTree = "<group>"; };
+		64B876EA2A29538B0034E479 /* PerfilVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilVie.swift; sourceTree = "<group>"; };
+		64B876EC2A2957DC0034E479 /* StyleProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleProfil.swift; sourceTree = "<group>"; };
 		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644535932A314DA0003675DD /* MiniViews */ = {
+			isa = PBXGroup;
+			children = (
+				644535942A314DBB003675DD /* CursoVie.swift */,
+			);
+			path = MiniViews;
+			sourceTree = "<group>";
+		};
 		6474F8102A26A87B00A952BC = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				6474F8482A26A8FF00A952BC /* VieModel */,
+				644535932A314DA0003675DD /* MiniViews */,
 				6474F8472A26A8F800A952BC /* Models */,
 				6474F8462A26A8F000A952BC /* View */,
 				6474F8202A26A87D00A952BC /* Assets.xcassets */,
@@ -148,7 +169,10 @@
 				64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */,
 				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
 				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
+				6413DCCF2A37927800ED84F7 /* ProfileVie.swift */,
 				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
+				644535912A314418003675DD /* MenuView.swift */,
+				64B876EA2A29538B0034E479 /* PerfilVie.swift */,
 				6474F84D2A26CD2900A952BC /* Styles */,
 			);
 			path = View;
@@ -173,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				6474F84E2A26CD5700A952BC /* Styles.swift */,
+				6483C5262A315A1E009B3986 /* ButtonStyle.swift */,
+				64B876EC2A2957DC0034E479 /* StyleProfil.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -307,13 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B876ED2A2957DC0034E479 /* StyleProfil.swift in Sources */,
+				64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */,
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
 				6474F84F2A26CD5700A952BC /* Styles.swift in Sources */,
 				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
+				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
+				644535952A314DBB003675DD /* CursoVie.swift in Sources */,
+				6445359E2A3150E1003675DD /* MenuView.swift in Sources */,
 				64AE91B12A2954F5003A52E4 /* RegistroAluno.swift in Sources */,
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
 				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
+				6483C5272A315A1E009B3986 /* ButtonStyle.swift in Sources */,
 				6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
