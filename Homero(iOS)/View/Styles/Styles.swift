@@ -22,7 +22,6 @@ struct Stylefield: View {
                 RoundedRectangle(cornerRadius: 5)
                     .stroke(Color("Bluedark"),lineWidth: 2)
                     .foregroundColor(.clear)
-//                    .cornerRadius(10)
                     .keyboardType(.emailAddress)
                     .padding()
                     .padding(.horizontal,50)
