@@ -1,68 +1,63 @@
-//import SwiftUI
+
+//  LoginView.swift
+//  Homero(iOS)
 //
-//struct ContentView: View {
+//  Created by userext on 30/05/23.
 //
-//    @State private var textfieldnome: String = ""
-//    @State private var textfieldemail: String = ""
-//    @State private var Securefield: String = ""
-//    @State private var Securefield2: String = ""
-//    @State private var showAlert = false
-//
-//
-//    var body: some View {
-//        VStack {
-//
-//            Image("Homero")
-//
-//            TextField("Nome", text: $textfieldnome)
-//                .padding()
-//                .border(Color.gray, width: 1)
-//                .padding(.horizontal, 50)
-//
-//            TextField("E-mail", text: $textfieldemail)
-//                .padding()
-//                .border(Color.gray, width: 1)
-//                .padding(.horizontal, 50)
-//                .keyboardType(.emailAddress)
-//
-//            SecureField("Senha", text: $Securefield)
-//                .padding()
-//                .border(Color.gray, width: 1)
-//                .padding(.horizontal, 50)
-//
-//            SecureField("Confirme a Senha", text: $Securefield2)
-//                .padding()
-//                .border(Color.gray, width: 1)
-//                .padding(.horizontal, 50)
-//
-//            Button(action: {
-//                if Securefield != Securefield2 {
-//                    showAlert = true
-//                } else{
-//
-//
-//                }
-//
-//            }) {
-//                Text("Cadastrar")
-//                    .foregroundColor(.white)
-//                    .padding()
-//                    .frame(width: 150, height: 40)
-//                    .background(Color("Bluedark"))
-//                    .cornerRadius(10)
-//            }
-//            .padding(.top, 20)
-//            .alert(isPresented: $showAlert) {
-//                Alert(title: Text("⚠️ Erro!"),
-//                      message: Text("Não foi possivel concluir o cadastro, as senhas estão diferentes!"),
-//                      dismissButton: .default(Text("OK")))
-//            }
-//        }
-//    }
-//
-//    struct ContentView_Previews: PreviewProvider {
-//        static var previews: some View {
-//            ContentView()
-//        }
-//    }
-//}
+
+import SwiftUI
+
+struct RegistroAluno: View {
+    @State private var email: String = ""
+    @State private var senha: String = ""
+    @State private var isLoading: Bool = false
+    @State private var loginSuccess: Bool = false
+    
+    
+    @StateObject var loginmode = LoginViewModel()
+    
+    var body: some View {
+        
+        NavigationView{
+            VStack{
+                
+                Image("Homero")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 100)
+                    .padding(.top)
+                
+                VStack(spacing: 5){
+                    Text("Registre-se como aluno:")
+                    Stylefield(text: $email, isSecured: true)
+                }
+                .padding()
+                
+                NavigationLink(destination: TelaCadastro()) {
+                    Text("continuar cadastro")
+                    
+                }
+                .padding()
+                .frame(width: 275, height: 40)
+                .background(Color("Bluedark"))
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                
+                NavigationLink(destination: LoginView()){
+                    Text("Já tem uma conta? Faça login!")
+                        .padding(.top,30)
+                        .foregroundColor((Color("Bluedark")))
+                }
+                
+            }
+        }
+    }
+    
+    struct LoginView_Previews: PreviewProvider {
+        static var previews: some View {
+            RegistroAluno()
+        }
+    }
+    
+    
+}
