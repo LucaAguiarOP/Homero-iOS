@@ -29,10 +29,10 @@ struct LoginView: View {
                 
                 VStack(spacing: 5){
                     Text("Efetue Login")
+                        .padding(.leading, -132)
                     .foregroundColor((Color("Bluedark")))
                     Stylefield(text: $email, isSecured: true)
                     Stylefield(text: $senha, isSecured: false)
-                        .padding()
                         .padding(.horizontal, 50)
                 }
                 .padding()
@@ -48,8 +48,8 @@ struct LoginView: View {
                 .background(Color("Bluedark"))
                 .foregroundColor(.white)
                 .cornerRadius(10)
-                NavigationLink(destination: LoginView()){
-                    Text("Já tem uma conta? Faça login!")
+                NavigationLink(destination: TelaCadastro()){
+                    Text("Não tem uma conta registre-se")
                         .padding(.top,30)
                         .foregroundColor((Color("Bluedark")))
                 }
