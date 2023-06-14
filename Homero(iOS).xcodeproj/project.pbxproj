@@ -24,7 +24,6 @@
 		6474F84F2A26CD5700A952BC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Styles.swift */; };
 		6483C5272A315A1E009B3986 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483C5262A315A1E009B3986 /* ButtonStyle.swift */; };
 		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
-		64AE91B12A2954F5003A52E4 /* RegistroAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */; };
 		64AF80962A391B65005FBB45 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80952A391B65005FBB45 /* ImageView.swift */; };
 		64AF80982A391E25005FBB45 /* BarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80972A391E25005FBB45 /* BarraView.swift */; };
 		64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80992A392355005FBB45 /* InformacoesView.swift */; };
@@ -74,7 +73,6 @@
 		6474F84E2A26CD5700A952BC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		6483C5262A315A1E009B3986 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
-		64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroAluno.swift; sourceTree = "<group>"; };
 		64AF80952A391B65005FBB45 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		64AF80972A391E25005FBB45 /* BarraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarraView.swift; sourceTree = "<group>"; };
 		64AF80992A392355005FBB45 /* InformacoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacoesView.swift; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				6474F81E2A26A87B00A952BC /* ContentView.swift */,
-				64AE91B02A2954F5003A52E4 /* RegistroAluno.swift */,
 				64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */,
 				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
 				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
@@ -395,7 +392,6 @@
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
 				644535952A314DBB003675DD /* CursoVie.swift in Sources */,
 				6445359E2A3150E1003675DD /* MenuView.swift in Sources */,
-				64AE91B12A2954F5003A52E4 /* RegistroAluno.swift in Sources */,
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
 				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
 				64AF80982A391E25005FBB45 /* BarraView.swift in Sources */,
