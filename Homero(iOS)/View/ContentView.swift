@@ -33,7 +33,7 @@ struct RegistroAluno: View {
                 }
                 .padding()
                 
-                NavigationLink(destination: LoginView()) {
+                NavigationLink(destination: TelaCadastro()) {
                     Text("continuar cadastro")
                     
                 }
@@ -43,7 +43,7 @@ struct RegistroAluno: View {
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 
-                NavigationLink(destination: TelaCadastro()){
+                NavigationLink(destination: LoginView()){
                     Text("Já tem uma conta? Faça login!")
                         .padding(.top,30)
                         .foregroundColor((Color("Bluedark")))
