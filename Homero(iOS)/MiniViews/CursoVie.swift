@@ -17,9 +17,9 @@ struct CursoVie: View {
         Rectangle()
             .shadow(radius: 50)
             .foregroundColor(.white)
-            .frame(width: 350,height: 370)
+            .frame(width: 350,height: 350)
             .overlay{
-                VStack(spacing:20){
+                VStack(spacing:10){
                     Image((nomeimage))
                         .opacity(0.2)
                         .frame(width: 350,height: 200)
@@ -29,7 +29,8 @@ struct CursoVie: View {
                                 Text("\(cursopequeno)")
                                     .foregroundColor(Color("Bluedark"))
                                     .font(.title)
-                                Spacer()
+                                    .padding(.trailing,270)
+                                
                             }
                         }
             
@@ -37,11 +38,11 @@ struct CursoVie: View {
                     Spacer()
                     Divider()
                         .frame(width: .infinity)
-                        .position(x:180,y:35)
+                        .padding(.top,7)
                     VStack(spacing:27){
                         HStack(){
                             Text("\(curso)")
-                            Spacer()
+                                .padding(.trailing,70)
                         }
                         .foregroundColor(Color("Bluedark"))
                         
@@ -52,6 +53,8 @@ struct CursoVie: View {
                             .background(Color("Bluedark"))
                             .cornerRadius(5)
                         Rectangle()
+                        
+                    
                     }
                 }
             }
