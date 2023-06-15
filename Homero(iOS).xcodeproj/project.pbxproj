@@ -189,10 +189,10 @@
 				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
 				64AF80992A392355005FBB45 /* InformacoesView.swift */,
 				6413DCCF2A37927800ED84F7 /* ProfileVie.swift */,
+				644535912A314418003675DD /* MenuView.swift */,
 				64AF809D2A392389005FBB45 /* PerguntasFrequentesView.swift */,
 				64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */,
 				6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */,
-				644535912A314418003675DD /* MenuView.swift */,
 				64B876EA2A29538B0034E479 /* PerfilVie.swift */,
 				6474F84D2A26CD2900A952BC /* Styles */,
 			);

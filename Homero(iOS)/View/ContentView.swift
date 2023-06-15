@@ -28,10 +28,14 @@ struct RegistroAluno: View {
                     .padding(.top)
                 
                 VStack(spacing: 5){
-                    Text("Registre-se como aluno:")
+                
+                        Text("Registre-se como aluno:")
+                        .padding(.trailing,87)
+                        
                     Stylefield(text: $email, isSecured: true)
                 }
                 .padding()
+                
                 
                 NavigationLink(destination: TelaCadastro()) {
                     Text("continuar cadastro")
