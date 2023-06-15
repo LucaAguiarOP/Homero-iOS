@@ -15,6 +15,7 @@ struct BarraView<Content: View>: View {
             Text(texto)
                 .foregroundColor(Color("Bluedark"))
                 .frame(width: .infinity)
+                .font(.system(size: 14))
             Spacer()
             NavigationLink(destination: destination) {
                 Image(systemName: "chevron.right")

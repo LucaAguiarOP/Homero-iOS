@@ -49,7 +49,7 @@ struct LoginView: View {
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 NavigationLink(destination: TelaCadastro()){
-                    Text("Não tem uma conta registre-se")
+                    Text("Não tem uma conta? registre-se!")
                         .padding(.top,30)
                         .foregroundColor((Color("Bluedark")))
                 }
