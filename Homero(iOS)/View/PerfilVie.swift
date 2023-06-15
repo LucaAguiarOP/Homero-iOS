@@ -36,8 +36,9 @@ struct PerfilVie: View {
     
     //    struct PerfilVie_Previews: PreviewProvider {
     //        static var previews: some View {
-    //          //  PerfilVie(textretancle: )
+    //            PerfilVie()
     //        }
     //    }
     //}
+    
 }

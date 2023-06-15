@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413DCCF2A37927800ED84F7 /* ProfileVie.swift */; };
+		64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64435DA72A3A8BC9003441D5 /* PerguntasFrequentes.swift */; };
 		644535952A314DBB003675DD /* CursoVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535942A314DBB003675DD /* CursoVie.swift */; };
 		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
 		644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */; };
@@ -31,6 +32,7 @@
 		64AF809E2A392389005FBB45 /* PerguntasFrequentesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF809D2A392389005FBB45 /* PerguntasFrequentesView.swift */; };
 		64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EA2A29538B0034E479 /* PerfilVie.swift */; };
 		64B876ED2A2957DC0034E479 /* StyleProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EC2A2957DC0034E479 /* StyleProfil.swift */; };
+		64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */; };
 		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
 		64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		6413DCCF2A37927800ED84F7 /* ProfileVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVie.swift; sourceTree = "<group>"; };
+		64435DA72A3A8BC9003441D5 /* PerguntasFrequentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerguntasFrequentes.swift; sourceTree = "<group>"; };
 		644535912A314418003675DD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
 		644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfieldprofile.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 		64AF809D2A392389005FBB45 /* PerguntasFrequentesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerguntasFrequentesView.swift; sourceTree = "<group>"; };
 		64B876EA2A29538B0034E479 /* PerfilVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilVie.swift; sourceTree = "<group>"; };
 		64B876EC2A2957DC0034E479 /* StyleProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleProfil.swift; sourceTree = "<group>"; };
+		64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialCurso.swift; sourceTree = "<group>"; };
 		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
 		64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSecureVie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,9 +188,11 @@
 			isa = PBXGroup;
 			children = (
 				6474F81E2A26A87B00A952BC /* ContentView.swift */,
-				64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */,
-				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
 				6474F84B2A26AD8C00A952BC /* LoginView.swift */,
+				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
+				64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */,
+				64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */,
+				64435DA72A3A8BC9003441D5 /* PerguntasFrequentes.swift */,
 				64AF80992A392355005FBB45 /* InformacoesView.swift */,
 				6413DCCF2A37927800ED84F7 /* ProfileVie.swift */,
 				64AF809D2A392389005FBB45 /* PerguntasFrequentesView.swift */,
@@ -379,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */,
+				64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */,
 				64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */,
 				64AF80962A391B65005FBB45 /* ImageView.swift in Sources */,
 				64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */,
@@ -390,6 +397,7 @@
 				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
+				64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */,
 				644535952A314DBB003675DD /* CursoVie.swift in Sources */,
 				6445359E2A3150E1003675DD /* MenuView.swift in Sources */,
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
