@@ -28,7 +28,6 @@ struct ForgotPasswordSecureVie: View {
                     .foregroundColor(.white)
                     .frame(maxWidth: 370,maxHeight: 50)
                     .border(Color("Bluedark"))
-                
                 //deixar redondo
             }
         }
