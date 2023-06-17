@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413DCCF2A37927800ED84F7 /* ProfileVie.swift */; };
+		643AC7132A3D101F001786A4 /* BarraViewEspecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */; };
+		643AC7152A3D1E81001786A4 /* Textcurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AC7142A3D1E81001786A4 /* Textcurse.swift */; };
 		644535952A314DBB003675DD /* CursoVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535942A314DBB003675DD /* CursoVie.swift */; };
 		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
 		644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */; };
@@ -55,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		6413DCCF2A37927800ED84F7 /* ProfileVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVie.swift; sourceTree = "<group>"; };
+		643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarraViewEspecial.swift; sourceTree = "<group>"; };
+		643AC7142A3D1E81001786A4 /* Textcurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textcurse.swift; sourceTree = "<group>"; };
 		644535912A314418003675DD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
 		644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfieldprofile.swift; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 				644535942A314DBB003675DD /* CursoVie.swift */,
 				64AF80952A391B65005FBB45 /* ImageView.swift */,
 				64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */,
+				643AC7142A3D1E81001786A4 /* Textcurse.swift */,
 				644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */,
+				643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */,
 				64AF80972A391E25005FBB45 /* BarraView.swift */,
 			);
 			path = MiniViews;
@@ -398,7 +404,9 @@
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
 				6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */,
 				64AF80982A391E25005FBB45 /* BarraView.swift in Sources */,
+				643AC7152A3D1E81001786A4 /* Textcurse.swift in Sources */,
 				6483C5272A315A1E009B3986 /* ButtonStyle.swift in Sources */,
+				643AC7132A3D101F001786A4 /* BarraViewEspecial.swift in Sources */,
 				6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */,
 				644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */,
 				646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */,
