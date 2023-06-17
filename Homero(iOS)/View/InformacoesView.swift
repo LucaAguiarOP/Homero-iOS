@@ -39,6 +39,7 @@ struct InformacoesView: View {
                 .border(Color("Bluedark"))
                 .foregroundColor(.white)
                 .background(Color("Bluedark"))
+                .cornerRadius(10)
             Spacer(minLength: 275)
         }
         

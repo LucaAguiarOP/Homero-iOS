@@ -26,7 +26,7 @@ struct ForgotPasswordSecureVie: View {
                             .cornerRadius(20)
                     }
                     .foregroundColor(.white)
-                    .frame(maxWidth: 370,maxHeight: 50)
+                    .frame(maxWidth: 370,maxHeight: 70)
                     .border(Color("Bluedark"))
                 //deixar redondo
             }
@@ -41,7 +41,7 @@ struct ForgotPasswordSecureVie: View {
                             .cornerRadius(20)
                     }
                     .foregroundColor(.white)
-                    .frame(maxWidth: 370,maxHeight: 50)
+                    .frame(maxWidth: 370,maxHeight: 70)
                     .border(Color("Bluedark"))
                 
                 //deixar redondo
@@ -57,7 +57,7 @@ struct ForgotPasswordSecureVie: View {
                                 .cornerRadius(20)
                         }
                         .foregroundColor(.white)
-                        .frame(maxWidth: 370,maxHeight: 50)
+                        .frame(maxWidth: 370,maxHeight: 70)
                         .border(Color("Bluedark"))
                     
                     //deixar redondo
