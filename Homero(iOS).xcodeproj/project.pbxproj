@@ -25,7 +25,7 @@
 		6474F83A2A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */; };
 		6474F84A2A26AC1A00A952BC /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F8492A26AC1A00A952BC /* LoginViewMode.swift */; };
 		6474F84C2A26AD8C00A952BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84B2A26AD8C00A952BC /* LoginView.swift */; };
-		6474F84F2A26CD5700A952BC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Styles.swift */; };
+		6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F84E2A26CD5700A952BC /* Stylefield.swift */; };
 		64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */; };
 		64AF80962A391B65005FBB45 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80952A391B65005FBB45 /* ImageView.swift */; };
 		64AF80982A391E25005FBB45 /* BarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF80972A391E25005FBB45 /* BarraView.swift */; };
@@ -76,7 +76,7 @@
 		6474F8392A26A87E00A952BC /* Homero_iOS_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6474F8492A26AC1A00A952BC /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
 		6474F84B2A26AD8C00A952BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		6474F84E2A26CD5700A952BC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6474F84E2A26CD5700A952BC /* Stylefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylefield.swift; sourceTree = "<group>"; };
 		64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCadastro.swift; sourceTree = "<group>"; };
 		64AF80952A391B65005FBB45 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		64AF80972A391E25005FBB45 /* BarraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarraView.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		6465104F2A410E1A007A9661 /* Curso */ = {
 			isa = PBXGroup;
 			children = (
-				6465106A2A411366007A9661 /* UteisMiniviews */,
+				6465106A2A411366007A9661 /* UIComponent */,
 				646510662A411302007A9661 /* FeatureMenuCurso */,
 				646510652A4112F9007A9661 /* FeatureIniciaCurso */,
 			);
@@ -126,7 +126,6 @@
 		646510502A410F06007A9661 /* FeatureLogin */ = {
 			isa = PBXGroup;
 			children = (
-				646510582A411026007A9661 /* Model */,
 				646510572A41101F007A9661 /* ViewModel */,
 				646510562A411018007A9661 /* View */,
 			);
@@ -136,19 +135,17 @@
 		646510512A410F19007A9661 /* FeatureCadastro */ = {
 			isa = PBXGroup;
 			children = (
-				646510552A410FF1007A9661 /* Model */,
-				646510542A410FDF007A9661 /* ViewModel */,
 				646510532A410FCB007A9661 /* View */,
 			);
 			path = FeatureCadastro;
 			sourceTree = "<group>";
 		};
-		646510522A410F39007A9661 /* UteisMiniviews */ = {
+		646510522A410F39007A9661 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				6474F84E2A26CD5700A952BC /* Styles.swift */,
+				6474F84E2A26CD5700A952BC /* Stylefield.swift */,
 			);
-			path = UteisMiniviews;
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 		646510532A410FCB007A9661 /* View */ = {
@@ -158,20 +155,6 @@
 				64AE91AD2A294CDD003A52E4 /* TelaCadastro.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		646510542A410FDF007A9661 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		646510552A410FF1007A9661 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		646510562A411018007A9661 /* View */ = {
@@ -190,18 +173,9 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		646510582A411026007A9661 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		6465105B2A411128007A9661 /* FeatureMenu */ = {
 			isa = PBXGroup;
 			children = (
-				6465105F2A4111A6007A9661 /* ModelMenu */,
-				6465105E2A41119E007A9661 /* ViewModelMenu */,
 				6465105D2A411194007A9661 /* ViewMenu */,
 			);
 			path = FeatureMenu;
@@ -210,8 +184,7 @@
 		6465105C2A411139007A9661 /* FeatureConta */ = {
 			isa = PBXGroup;
 			children = (
-				646510642A41128E007A9661 /* ViewModelConta */,
-				646510632A411281007A9661 /* ModelConta */,
+				644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */,
 				646510612A411265007A9661 /* ViewConta */,
 			);
 			path = FeatureConta;
@@ -226,21 +199,7 @@
 			path = ViewMenu;
 			sourceTree = "<group>";
 		};
-		6465105E2A41119E007A9661 /* ViewModelMenu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModelMenu;
-			sourceTree = "<group>";
-		};
-		6465105F2A4111A6007A9661 /* ModelMenu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelMenu;
-			sourceTree = "<group>";
-		};
-		646510602A4111F5007A9661 /* UteisMiniview */ = {
+		646510602A4111F5007A9661 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
 				644535942A314DBB003675DD /* CursoVie.swift */,
@@ -249,7 +208,7 @@
 				644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */,
 				64AF80972A391E25005FBB45 /* BarraView.swift */,
 			);
-			path = UteisMiniview;
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 		646510612A411265007A9661 /* ViewConta */ = {
@@ -264,27 +223,10 @@
 			path = ViewConta;
 			sourceTree = "<group>";
 		};
-		646510632A411281007A9661 /* ModelConta */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelConta;
-			sourceTree = "<group>";
-		};
-		646510642A41128E007A9661 /* ViewModelConta */ = {
-			isa = PBXGroup;
-			children = (
-				644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */,
-			);
-			path = ViewModelConta;
-			sourceTree = "<group>";
-		};
 		646510652A4112F9007A9661 /* FeatureIniciaCurso */ = {
 			isa = PBXGroup;
 			children = (
-				646510702A411404007A9661 /* Model */,
 				6465106F2A4113FC007A9661 /* View */,
-				6465106E2A4113F7007A9661 /* ViewModel */,
 			);
 			path = FeatureIniciaCurso;
 			sourceTree = "<group>";
@@ -292,27 +234,18 @@
 		646510662A411302007A9661 /* FeatureMenuCurso */ = {
 			isa = PBXGroup;
 			children = (
-				6465106D2A4113F2007A9661 /* Model */,
 				6465106C2A4113EA007A9661 /* View */,
-				6465106B2A4113DE007A9661 /* ViewModel */,
 			);
 			path = FeatureMenuCurso;
 			sourceTree = "<group>";
 		};
-		6465106A2A411366007A9661 /* UteisMiniviews */ = {
+		6465106A2A411366007A9661 /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
 				643AC7142A3D1E81001786A4 /* Textcurse.swift */,
 				643AC7122A3D101F001786A4 /* BarraViewEspecial.swift */,
 			);
-			path = UteisMiniviews;
-			sourceTree = "<group>";
-		};
-		6465106B2A4113DE007A9661 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
+			path = UIComponent;
 			sourceTree = "<group>";
 		};
 		6465106C2A4113EA007A9661 /* View */ = {
@@ -323,33 +256,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		6465106D2A4113F2007A9661 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6465106E2A4113F7007A9661 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		6465106F2A4113FC007A9661 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		646510702A411404007A9661 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		646510712A41142B007A9661 /* App */ = {
@@ -419,6 +331,7 @@
 		64AF80A12A393ACD005FBB45 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				646510602A4111F5007A9661 /* UIComponents */,
 				64AF80A22A393AE9005FBB45 /* Registro */,
 				64AF80A32A393B19005FBB45 /* Menu */,
 				6465104F2A410E1A007A9661 /* Curso */,
@@ -429,7 +342,7 @@
 		64AF80A22A393AE9005FBB45 /* Registro */ = {
 			isa = PBXGroup;
 			children = (
-				646510522A410F39007A9661 /* UteisMiniviews */,
+				646510522A410F39007A9661 /* UIComponents */,
 				646510512A410F19007A9661 /* FeatureCadastro */,
 				646510502A410F06007A9661 /* FeatureLogin */,
 			);
@@ -439,7 +352,6 @@
 		64AF80A32A393B19005FBB45 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				646510602A4111F5007A9661 /* UteisMiniview */,
 				6465105C2A411139007A9661 /* FeatureConta */,
 				6465105B2A411128007A9661 /* FeatureMenu */,
 			);
@@ -583,7 +495,7 @@
 				64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */,
 				64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */,
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
-				6474F84F2A26CD5700A952BC /* Styles.swift in Sources */,
+				6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */,
 				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,

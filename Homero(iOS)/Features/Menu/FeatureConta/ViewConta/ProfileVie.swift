@@ -37,7 +37,7 @@ struct ProfileVie: View {
                     BarraView(texto: "Informações pessoais") {InformacoesView()}
                     BarraView(texto: "Alterar senha"){ForgotPasswordVie()}
                     BarraView(texto: "Histórico da aula") {HistoricoAulaView()}
-                    BarraView(texto: "Perguntas frequentes") {PerguntasFrequentesView()}
+                    BarraView(texto: "Perguntas frequentes") {}
                 }
                 
             }

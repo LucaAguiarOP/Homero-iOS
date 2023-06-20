@@ -49,11 +49,11 @@ struct CursoVie: View {
                             NavigationLink(destination:CursoPrincipalView()){
                                 Text("Acessar curso")
                             }
-                                .frame(minWidth: 332,minHeight: 37)
+                            .frame(minWidth: 332,minHeight: 37)
                             
-                                .foregroundColor(.white)
-                                .background(Color("Bluedark"))
-                                .cornerRadius(5)
+                            .foregroundColor(.white)
+                            .background(Color("Bluedark"))
+                            .cornerRadius(5)
                             Rectangle()
                             
                             
