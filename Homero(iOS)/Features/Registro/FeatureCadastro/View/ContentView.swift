@@ -21,7 +21,7 @@ struct RegistroAluno: View {
         NavigationView{
             VStack{
                 
-                Image("Homero")
+                Image("homero")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250, height: 100)
