@@ -21,7 +21,7 @@ struct LoginView: View {
         NavigationView{
             VStack{
                 
-                Image("homero")
+                Image("gif")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 220, height: 100)
