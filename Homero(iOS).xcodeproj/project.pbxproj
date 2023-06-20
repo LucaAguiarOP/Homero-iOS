@@ -33,6 +33,9 @@
 		64AF809C2A392366005FBB45 /* HistoricoAulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */; };
 		64B876EB2A29538B0034E479 /* PerfilVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B876EA2A29538B0034E479 /* PerfilVie.swift */; };
 		64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */; };
+		64C80DFF2A426DA300BBA4B5 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80DFE2A426DA300BBA4B5 /* Graph.swift */; };
+		64C80E012A426E1500BBA4B5 /* grafo.json in Resources */ = {isa = PBXBuildFile; fileRef = 64C80E002A426E1500BBA4B5 /* grafo.json */; };
+		64C80E032A426E6800BBA4B5 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C80E022A426E6800BBA4B5 /* FileManager.swift */; };
 		64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */; };
 		64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */; };
 /* End PBXBuildFile section */
@@ -84,6 +87,9 @@
 		64AF809B2A392366005FBB45 /* HistoricoAulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoAulaView.swift; sourceTree = "<group>"; };
 		64B876EA2A29538B0034E479 /* PerfilVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilVie.swift; sourceTree = "<group>"; };
 		64C0CA8F2A3A7BFB00F52225 /* TelaInicialCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialCurso.swift; sourceTree = "<group>"; };
+		64C80DFE2A426DA300BBA4B5 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		64C80E002A426E1500BBA4B5 /* grafo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grafo.json; sourceTree = "<group>"; };
+		64C80E022A426E6800BBA4B5 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		64D7C5322A2EB23000B3DE4D /* ForgotPasswordVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVie.swift; sourceTree = "<group>"; };
 		64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSecureVie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -306,6 +312,7 @@
 		6474F8222A26A87D00A952BC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				64C80E042A426E8000BBA4B5 /* Grafo */,
 				6474F8232A26A87D00A952BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -356,6 +363,16 @@
 				6465105B2A411128007A9661 /* FeatureMenu */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		64C80E042A426E8000BBA4B5 /* Grafo */ = {
+			isa = PBXGroup;
+			children = (
+				64C80DFE2A426DA300BBA4B5 /* Graph.swift */,
+				64C80E022A426E6800BBA4B5 /* FileManager.swift */,
+				64C80E002A426E1500BBA4B5 /* grafo.json */,
+			);
+			path = Grafo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +481,7 @@
 			files = (
 				6474F8242A26A87D00A952BC /* Preview Assets.xcassets in Resources */,
 				6474F8212A26A87D00A952BC /* Assets.xcassets in Resources */,
+				64C80E012A426E1500BBA4B5 /* grafo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C80DFF2A426DA300BBA4B5 /* Graph.swift in Sources */,
 				64AF809A2A392355005FBB45 /* InformacoesView.swift in Sources */,
 				64435DA82A3A8BC9003441D5 /* PerguntasFrequentes.swift in Sources */,
 				64DE52362A3A4281006011CD /* ForgotPasswordSecureVie.swift in Sources */,
@@ -497,6 +516,7 @@
 				6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */,
 				6474F84F2A26CD5700A952BC /* Stylefield.swift in Sources */,
 				64D7C5332A2EB23000B3DE4D /* ForgotPasswordVie.swift in Sources */,
+				64C80E032A426E6800BBA4B5 /* FileManager.swift in Sources */,
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
 				64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */,
