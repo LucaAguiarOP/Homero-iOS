@@ -199,18 +199,6 @@
 			path = ViewMenu;
 			sourceTree = "<group>";
 		};
-		646510602A4111F5007A9661 /* UIComponents */ = {
-			isa = PBXGroup;
-			children = (
-				644535942A314DBB003675DD /* CursoVie.swift */,
-				64AF80952A391B65005FBB45 /* ImageView.swift */,
-				64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */,
-				644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */,
-				64AF80972A391E25005FBB45 /* BarraView.swift */,
-			);
-			path = UIComponents;
-			sourceTree = "<group>";
-		};
 		646510612A411265007A9661 /* ViewConta */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +260,18 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		646849102A42557E004D59D0 /* UICompenents */ = {
+			isa = PBXGroup;
+			children = (
+				644535942A314DBB003675DD /* CursoVie.swift */,
+				64DE52352A3A4281006011CD /* ForgotPasswordSecureVie.swift */,
+				64AF80952A391B65005FBB45 /* ImageView.swift */,
+				644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */,
+				64AF80972A391E25005FBB45 /* BarraView.swift */,
+			);
+			path = UICompenents;
+			sourceTree = "<group>";
+		};
 		6474F8102A26A87B00A952BC = {
 			isa = PBXGroup;
 			children = (
@@ -331,7 +331,6 @@
 		64AF80A12A393ACD005FBB45 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				646510602A4111F5007A9661 /* UIComponents */,
 				64AF80A22A393AE9005FBB45 /* Registro */,
 				64AF80A32A393B19005FBB45 /* Menu */,
 				6465104F2A410E1A007A9661 /* Curso */,
@@ -352,6 +351,7 @@
 		64AF80A32A393B19005FBB45 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				646849102A42557E004D59D0 /* UICompenents */,
 				6465105C2A411139007A9661 /* FeatureConta */,
 				6465105B2A411128007A9661 /* FeatureMenu */,
 			);
