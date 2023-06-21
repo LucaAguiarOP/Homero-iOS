@@ -8,13 +8,36 @@
 import SwiftUI
 
 struct ComofuncionaView: View {
+    var namecurse: String = "Estrutura de dados"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+        ScrollView{
+                VStack{
+                    Text(namecurse)
+                        .font(.title)
+                        .foregroundColor(Color("Bluedark"))
+                        //.padding(.top,-132)
+                       .padding(.trailing,70)
+                    Divider()
+                        .frame(width: .infinity,height:5)
+                        .foregroundColor(Color("Bluedark"))
+                        //.padding(.top,-102)
+                    Text("Como funciona?")
+                        .bold()
+                        .foregroundColor(Color("Bluedark"))
+                        .bold()
+                        .padding(.trailing,175)
+                    Text("conheça as principais funcionalidades que você ter no curso")
+                        .foregroundColor(Color("Bluedark"))
+                        .bold()
+                }
+            }
+        }
     }
-}
-
-struct ComofuncionaView_Previews: PreviewProvider {
-    static var previews: some View {
-        ComofuncionaView()
+    
+    struct ComofuncionaView_Previews: PreviewProvider {
+        static var previews: some View {
+            ComofuncionaView()
+        }
     }
 }

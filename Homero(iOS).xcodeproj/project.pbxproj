@@ -15,6 +15,8 @@
 		6445359E2A3150E1003675DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644535912A314418003675DD /* MenuView.swift */; };
 		644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */; };
 		644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */; };
+		646849122A426405004D59D0 /* IniciarcursoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646849112A426405004D59D0 /* IniciarcursoView.swift */; };
+		646849142A4274FC004D59D0 /* ComofuncionaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646849132A4274FC004D59D0 /* ComofuncionaView.swift */; };
 		646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */; };
 		6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */; };
 		6474F81F2A26A87B00A952BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474F81E2A26A87B00A952BC /* ContentView.swift */; };
@@ -63,6 +65,8 @@
 		644535942A314DBB003675DD /* CursoVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoVie.swift; sourceTree = "<group>"; };
 		644E610C2A3A2EE900E41C4D /* Textfieldprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfieldprofile.swift; sourceTree = "<group>"; };
 		644E610E2A3A300D00E41C4D /* ProfileViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewMode.swift; sourceTree = "<group>"; };
+		646849112A426405004D59D0 /* IniciarcursoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarcursoView.swift; sourceTree = "<group>"; };
+		646849132A4274FC004D59D0 /* ComofuncionaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComofuncionaView.swift; sourceTree = "<group>"; };
 		646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoPrincipalView.swift; sourceTree = "<group>"; };
 		6474F8192A26A87B00A952BC /* Homero(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homero(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6474F81C2A26A87B00A952BC /* Homero_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homero_iOS_App.swift; sourceTree = "<group>"; };
@@ -240,6 +244,8 @@
 			isa = PBXGroup;
 			children = (
 				646A18D82A3BDFA6007261BE /* CursoPrincipalView.swift */,
+				646849112A426405004D59D0 /* IniciarcursoView.swift */,
+				646849132A4274FC004D59D0 /* ComofuncionaView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -500,6 +506,7 @@
 				6474F81D2A26A87B00A952BC /* Homero_iOS_App.swift in Sources */,
 				6413DCD02A37927900ED84F7 /* ProfileVie.swift in Sources */,
 				64C0CA902A3A7BFB00F52225 /* TelaInicialCurso.swift in Sources */,
+				646849142A4274FC004D59D0 /* ComofuncionaView.swift in Sources */,
 				644535952A314DBB003675DD /* CursoVie.swift in Sources */,
 				6445359E2A3150E1003675DD /* MenuView.swift in Sources */,
 				64AE91AE2A294CDD003A52E4 /* TelaCadastro.swift in Sources */,
@@ -511,6 +518,7 @@
 				644E610F2A3A300D00E41C4D /* ProfileViewMode.swift in Sources */,
 				646A18D92A3BDFA6007261BE /* CursoPrincipalView.swift in Sources */,
 				644E610D2A3A2EE900E41C4D /* Textfieldprofile.swift in Sources */,
+				646849122A426405004D59D0 /* IniciarcursoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
